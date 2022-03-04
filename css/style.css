@@ -43,8 +43,6 @@ li{
     list-style: none;
     margin-inline-start: 20px;
 }
-.soft li{
-}
 .soft li:nth-child(1)::after{
     content:" ◆◆◆◆◆";
 }

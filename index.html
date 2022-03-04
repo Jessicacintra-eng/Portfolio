@@ -4,7 +4,8 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Jessica Cintra">
-		<link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="./css/reset.css">
+		<link rel="stylesheet" href="./css/style.css">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
         <link href="https://fonts.googleapis.com/css2?family=Poppins&amp;display=swap" rel="stylesheet">
@@ -12,15 +13,28 @@
 		
 				 
 	</head>
-    <body>
+    <body id="root">
         <header>
             <h1>Jessica Cintra</h1>
-            <small>Engenheira de bioprocessos e biotecnologia</small>
-            <small>Dev Fullstack</small>
+            <nav>
+                <a href="#formacao">Formação</a>
+                <a href="#habilidades">Habilidades</a>
+                <a href="#experiencias">Experiência</a>
+                <a href="#projetos">Projetos</a>
+            </nav>
         </header>
        
         <main>
-            <section class="formacao">
+            <section id="intro">
+                <div>
+                <small>Engenheira de bioprocessos e biotecnologia</small>
+                <small>Dev Fullstack</small>
+                </div>
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos ab nihil fugit eos illo qui aspernatur quas rem inventore tempora placeat praesentium quibusdam iste facilis impedit cupiditate veniam, eaque optio.</p>
+                </div>
+            </section>
+            <section id="formacao">
                 <h2>Formação</h2>
                 <dl>
                     <dt>Engenharia de bioprocessos e biotecnologia</dt>
@@ -34,8 +48,10 @@
                     <dt>Pós graduação em Engenharia de software - PUC minas (ead)</dt>
                     <dd><small>PUCMG - 2024</small></dd>
                 </dl>
-                <h2>Habilidades</h2>
-                <section class="habilidades">
+            </section> 
+                
+                <section id="habilidades">
+                    <h2>Habilidades</h2>
                     <div class="tech">
                         <h3>Tech</h3>
                         <ul>
@@ -57,7 +73,6 @@
                     </div>
                     
                 </section>
-            </section>
            
             <section class="experiencia">
                 <h2>Experiências</h2>
@@ -76,6 +91,13 @@
                     <dd>Roi UP- PT - 2021-2022</dd>
                 </dl>
             </section>
+            <section id="projetos">
+                <h2>Projetos</h2>
+                <div>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi sit sunt laudantium? Iste, excepturi error! Voluptas magnam error id dolorum minus optio quasi hic natus fuga? Voluptates in vel numquam!
+                </div>
+            </section>
+
         </main>
 
     </body>
