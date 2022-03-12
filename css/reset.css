@@ -8,10 +8,20 @@ html,
 body {
     width: 100%;
     height: 100%;
+    font-family: 'Poppins';
 }
 #root{
     --primaria:black;
     --secundaria:white;
     --background:rgba(255, 239, 233, 0.973);
     --texto:black;
+}
+h1{
+    font-family: 'Poiret One', cursive;
+}
+dd{
+    margin-inline-start: 20px;
+}
+li{
+    list-style: none;
 }

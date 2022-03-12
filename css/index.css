@@ -1,0 +1,157 @@
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:150px;
+    background-color: rgba(32, 101, 170, 0.726);
+    width: 100%;
+    height: auto;
+    position: fixed;
+}
+h1{
+    font-size:60px;
+}
+nav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+nav > a{
+    text-decoration: none;
+    margin: 4px 8px; 
+    color:var(--primaria);
+    font-size: 25px ;
+    transition: all 0.3s;
+}
+nav > a:hover{
+    transform: scale(1.1);
+    color: rgb(82, 87, 92);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    padding-top: 150px;
+   
+}
+.avatar > img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border-color: rgba(0, 0, 0, 0.418);
+    border-style: dotted;
+}
+.sobremim{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#intro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 180px;
+    background-color: rgba(128, 128, 128, 0.678);
+}
+#intro > article{
+    width: 40%;
+    text-align: right;
+}
+#intro > .avatar{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    border-radius: 50%;
+}
+#intro > .contatos{
+    width: 40%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+#historico{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: lightslategray;
+}
+#formacao> h2{
+    display: flex;
+    flex-direction: row;
+}
+#formacao > dl{
+    display: flex;
+    flex-direction: column;
+}
+#experiencia{
+    padding-left: 10px;
+}
+
+
+#formacao > h2::after{
+    content: "🎓 ";
+
+}
+#habilidades > h2::after{
+    content:"🧠";
+}
+#experiencia > h2::after{
+    content:"💼";
+}
+#dev{
+    display: flex;
+    flex-direction: row;
+    
+    background-color: rgba(128, 128, 128, 0.664);
+}
+#projetos{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+#habilidades{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+}
+#habilidades > div{
+    display: flex;
+    flex-direction: row;
+}
+.soft{
+    width: 80%;
+}
+.tech{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    text-align: right;
+}
+
+.soft li:nth-child(1)::after{
+    content:" ◆◆◆◆◆";
+}
+.soft li:nth-child(2)::after{
+    content:" ◆◆◆◆";
+}
+.soft li:nth-child(3)::after{
+    content:" ◆◆◆";
+}
+.soft li:nth-child(4)::after{
+    content:" ◆◆◆◆";
+}
+.soft li:nth-child(5)::after{
+    content:" ◆◆◆◆◆";
+}
+.menu{
+    display:none;
+}
