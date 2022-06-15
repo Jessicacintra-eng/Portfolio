@@ -1,14 +1,62 @@
-@media(max-width: 425px) {
-    header{
-        height:115px;
+@media (max-width:769px){
+    #intro>article {
+        order: 1;
+        width: auto;
+        padding: 1px 20px;
     }
-    .navbar{
+}
+
+
+@media(max-width: 426px) {
+    header {
+        height: 115px;
+    }
+
+    #intro {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+
+    .mobile-intro {
+        flex-direction: row-reverse;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        margin:10px 0;
+    }
+    #contatos> a{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap:15px;
+        text-decoration: none;
+    }
+    
+
+    .avatar {
+        order: 1;
+        padding: 0;
+        margin: 0;
+    }
+
+    #intro>article {
+        order: 1;
+        width: auto;
+        padding: 1px 15px;
+    }
+
+    .navbar {
         display: none;
     }
-    h1{
+
+    h1 {
         font-size: 50px;
+
     }
-    .menu{
+
+    .menu {
         position: relative;
         margin: 0 auto 0 auto;
         width: 70px;
@@ -19,23 +67,24 @@
         align-items: center;
         justify-content: center;
         overflow: hidden;
-     }
-    
-    .menu--closed{
+    }
+
+    .menu--closed {
         height: 50px;
     }
-    
-    .menu--open{
-      display:flex;
-      flex-direction:row;
-      justify-content: right-center;
-      
+
+    .menu--open {
+        display: flex;
+        flex-direction: row;
+        justify-content: right-center;
+
         height: 50px;
-      width:400px;
+        width: 400px;
     }
-    
-    .button{
-        transition: 0.3s transform ease-in-out, 0.3s opacity ease-in-out;;
+
+    .button {
+        transition: 0.3s transform ease-in-out, 0.3s opacity ease-in-out;
+        ;
         cursor: pointer;
         position: absolute;
         display: flex;
@@ -46,29 +95,29 @@
         left: 27%;
         opacity: 1;
     }
-    
+
     .button:hover {
         opacity: 0.6;
     }
-    
-    .button span{
+
+    .button span {
         width: 100%;
         height: 1px;
         background-color: #161616;
         border-radius: 20%;
     }
-    
-    .menu--open .button{
-        display:flex;
-        flex-direction:row;
-      position:absolute;
+
+    .menu--open .button {
+        display: flex;
+        flex-direction: row;
+        position: absolute;
         left: 10%;
-        justify-content:flex-start;
+        justify-content: flex-start;
         transform-origin: center;
         transform: rotate(90deg);
     }
-    
-    .tools{
+
+    .tools {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
@@ -77,33 +126,34 @@
         justify-content: flex-end;
         transition: 0.3s margin ease-in-out;
     }
-    
-    
-    .tools .icon{
+
+
+    .tools .icon {
         transition: 0.2s transform ease-in-out;
     }
-    
-    .tools .icon:hover{
+
+    .tools .icon:hover {
         transform: scale(0.8);
     }
-    
-    .tools--hidden{
+
+    .tools--hidden {
         margin-top: 400px;
         z-index: -100;
     }
-    
-    .tools--visible{
-      display:flex;
-      flex-direction: row;
-      justify-content:space-between;
-      align-items:center;
-      width:60%;
-        margin-left:15%;
+
+    .tools--visible {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 60%;
+        margin-left: 15%;
         z-index: 100;
     }
 }
+
 @media(max-width: 400px) {
-    .menu--open{
-        width:350px;
+    .menu--open {
+        width: 350px;
     }
 }

@@ -1,77 +1,117 @@
 <!DOCTYPE html>
 <html>
-    <head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="author" content="Jessica Cintra">
-        
-        <link rel="stylesheet" href="./css/reset.css">
-		<link rel="stylesheet" href="./css/index.css">
-        <link rel="stylesheet" href="./css/media-queries.css">
 
-       
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jessica Cintra">
 
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-        <link href="https://fonts.googleapis.com/css2?family=Poppins&amp;display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Poppins&display=swap" rel="stylesheet">
-		<title>Portfolio- Jessica Cintra</title>
-		
-				 
-	</head>
-    <body id="root">
-        <header>
-            <h1>Jessica Cintra</h1>
-            <nav class="navbar">
-                <a href="#formacao">Formação</a>
-                <a href="#habilidades">Habilidades</a>
-                <a href="#experiencia">Experiências</a>
-                <a href="#projetos">Projetos</a>
-            </nav>
-            <div class="menu menu--closed">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/media-queries.css">
 
-                <div class="button">
-                    <span> </span>
-                    <span> </span>
-                    <span> </span>
-                </div>
-        
-                <div class="tools tools--hidden">
-                    <!-- Pencil Filled icon by Icons8 -->
-                    <a href="#formacao">
-                        <img class="icon formacao" width="32" height="32" src="./images/icons/toggle-icon/icons8-graduation-diploma-50.png">
-                    </a>
-        
-                    <!-- Trash icon by Icons8 -->
-                    <a href="#habilidades">
-                        <img class="icon trash" width="32" height="32" src="./images/icons/toggle-icon/icons8-skills-50.png">
-                    </a>
-        
-                    <!-- Invisible icon by Icons8 -->
-                    <a href="#experiencia">
-                        <img class="icon hidden" width="32" height="32" src="./images/icons/toggle-icon/icons8-work-50.png">
-                    </a>
-        
-                    <!-- About icon by Icons8 -->
-                    <a href="#projetos">
-                        <img class="icon help" width="32" height="32" src="./images/icons/toggle-icon/icons8-results-50.png">
-                    </a>
-        
-                    <!-- Share icon by Icons8 -->
-                    <a href="#informacao">
-                        <img class="icon share" width="32" height="32" src="./images/icons/toggle-icon/icons8-info-50.png">
-                    </a>
-        
-                </div>
-        
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&amp;display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Poppins&display=swap" rel="stylesheet">
+    <title>Portfolio- Jessica Cintra</title>
+
+
+</head>
+
+<body id="root">
+    <header>
+        <h1>Jessica Cintra</h1>
+        <nav class="navbar">
+            <a href="#formacao">Formação</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#experiencia">Experiências</a>
+            <a href="#projetos">Projetos</a>
+        </nav>
+        <div class="menu menu--closed">
+
+            <div class="button">
+                <span> </span>
+                <span> </span>
+                <span> </span>
             </div>
 
-        </header>
-       
-        
-        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
-        <script type="text/javascript" src="./js/script.js"></script>
-    </body>
+            <div class="tools tools--hidden">
+
+                <a href="#formacao">
+                    <img class="icon formacao" width="32" height="32"
+                        src="./images/icons/toggle-icon/icons8-graduation-diploma-50.png">
+                </a>
+
+                <a href="#habilidades">
+                    <img class="icon trash" width="32" height="32"
+                        src="./images/icons/toggle-icon/icons8-skills-50.png">
+                </a>
+
+                <a href="#experiencia">
+                    <img class="icon hidden" width="32" height="32" src="./images/icons/toggle-icon/icons8-work-50.png">
+                </a>
+
+                <a href="#projetos">
+                    <img class="icon help" width="32" height="32"
+                        src="./images/icons/toggle-icon/icons8-results-50.png">
+                </a>
+
+                <a href="#contatos">
+                    <img class="icon share" width="32" height="32" src="./images/icons/toggle-icon/icons8-info-50.png">
+                </a>
+
+            </div>
+
+        </div>
+    </header>
+    <main>
+
+        <section id="intro">
+            <article>
+                <h2>Engenheira de bioprocessos e biotecnologia</h2>
+                <h2>Desenvolvedora FullStack</h2>
+            </article>
+            <div class="mobile-intro">
+                <div class="avatar">
+                    <img src="./images/pictures/WhatsApp Image 2022-04-24 at 12.16.42.jpeg" alt="Avatar de Jessica Cintra">
+                </div>
+                <div id="contatos">
+                    <h2>Contatos</h2>
+                    <a href="https://api.whatsapp.com/send?phone=5551981811106&text=Ol%C3%A1!%20acessei%20seu%20portfolio%20no%20github!"
+                        target="_blank">
+                        <img class="icon whats" width="32" height="32"
+                            src="./images/icons/icones redes preto e branco/icons8-whatsapp-50-10.png">
+
+                        WhatsApp</a>
+                    <a href="mailto:jessica.cintra0712@gmail.com?subject=Portfolio%20github" target="_blank">
+                        <img class="icon email" width="32" height="32"
+                            src="./images/icons/icones redes preto e branco/icons8-gmail-50-4.png">
+
+                        E-mail</a>
+                    <a href="https://www.linkedin.com/in/jessica-cintra/" target="_blank">
+                        <img class="icon linkedin" width="32" height="32"
+                            src="./images/icons/icones redes preto e branco/icons8-linkedin-50-3.png">
+
+
+                        LikedIn</a>
+                    <a href="https://github.com/Jessicacintra-eng" target="_blank">
+                        <img class="icon github" width="32" height="32"
+                            src="./images/icons/icones redes preto e branco/icons8-github-50-6.png">
+
+
+                        Github</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script type="text/javascript" src="./js/script.js"></script>
+</body>
+
 </html>
